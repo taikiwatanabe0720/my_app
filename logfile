@@ -1,0 +1,8 @@
+2022-10-20 03:05:34.939 JST [8134] LOG:  starting PostgreSQL 14.5 (Homebrew) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2022-10-20 03:05:34.940 JST [8134] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-20 03:05:34.940 JST [8134] LOG:  listening on IPv6 address "::1", port 5432
+2022-10-20 03:05:34.942 JST [8134] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-20 03:05:34.949 JST [8135] LOG:  database system was shut down at 2022-10-20 03:05:13 JST
+2022-10-20 03:05:34.953 JST [8134] LOG:  database system is ready to accept connections
+2022-10-20 03:08:17.840 JST [8378] ERROR:  role "taiki.watanabe" already exists
+2022-10-20 03:08:17.840 JST [8378] STATEMENT:  CREATE ROLE "taiki.watanabe" PASSWORD 'SCRAM-SHA-256$4096:g6+aKsCstr1RB0RSnKaeXQ==$Fa6zqvDPJS8s3JSZ86FmQwMI4rfVlvvoB44WJyRPJZk=:T88LhCqCUQtSO6LfY8n5LpHJTWj9RRfM8v+3JxUtGpg=' NOSUPERUSER NOCREATEDB NOCREATEROLE INHERIT LOGIN;
