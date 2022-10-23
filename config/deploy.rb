@@ -1,14 +1,14 @@
 # config valid for current version and patch releases of Capistrano
 lock "3.17.1"
 
-set :application, "my_app_name"
+set :application, "my_app"
 set :repo_url, "git@github.com:taikiwatanabe0720/my_app.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-# set :deploy_to, "/var/www/my_app_name"
+set :deploy_to, "/var/www/my_app"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
@@ -42,4 +42,4 @@ set :ssh_options, {
   keys: ['~/.ssh/hundred_poems.pem'] 
 }
 
-set :rbenv_ruby, '2.6.9p207'
+set :rbenv_ruby, '2.6.9'
